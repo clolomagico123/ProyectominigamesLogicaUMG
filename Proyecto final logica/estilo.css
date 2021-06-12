@@ -1,0 +1,25 @@
+
+  .neons {font-family: 'Rock Salt', cursive;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  
+  .neons h1 {font-family: 'Rock Salt', cursive;
+    font-size: 6rem;
+    text-align: center;
+    -webkit-animation: glow 5s ease-in-out infinite alternate;
+    -moz-animation: glow 5s ease-in-out infinite alternate;
+    animation: glow 5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      color: #fff;
+      text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    }
+    to {
+      color: rgb(0, 0, 0);
+      text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    }
+  }
+  
